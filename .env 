@@ -1,0 +1,4 @@
+# Supabase → Project Settings → API  မှာ ဒီနှစ်ခုကို copy ကူးပြီး = ရဲ့နောက်မှာ ဖြည့်ပါ
+# (အလွတ်ထားရင် စမ်းသပ်မုဒ် — ဒီ browser ထဲပဲ သိမ်းမယ်)
+VITE_SUPABASE_URL=https://cinsnrtvrbqlehusmkom.supabase.co
+VITE_SUPABASE_ANON_KEY=sb_publishable_mHuW3HWpXymSgljFaHTo1A_AlwF4kSD
