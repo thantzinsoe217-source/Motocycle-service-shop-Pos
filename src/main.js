@@ -765,7 +765,6 @@ import SEED from './seed.json';
       var out = p.t && !p.v && p.s != null && p.s <= 0;
       h += '<button type="button" class="pick' + (out ? ' out' : '') + '" data-id="' + esc(p.id) + '">' +
         (out ? '<span class="pk-flag bad">' + esc(t('lowStock')) + '</span>' : (p.p == null ? '<span class="pk-flag">' + esc(t('pickVar')) + '</span>' : '')) +
-        '<span class="pk-img' + (p.img ? '' : ' ph') + '">' + (p.img ? '<img src="' + esc(p.img) + '" alt="" loading="lazy">' : '') + '</span>' +
         '<span class="pk-n">' + esc(p.n) + '</span></button>';
     });
     h += '</div>';
